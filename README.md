@@ -48,69 +48,6 @@ proyecto_ciberseguridad/
 │
 └── README.md
 ```
-
----
-
-## 🧠 Requerimientos técnicos
-- **Lenguaje:** Python 3  
-- **Herramientas:** Nmap, Scapy, Paramiko  
-- **Firewall:** UFW / iptables  
-- **Infraestructura:** Microsoft Azure VM
-
----
-
-## 🚀 Instrucciones de uso
-
-### 1. **Configuración inicial (Entrega 1)**  
-- Crear la VM en Azure con IP pública y puertos abiertos (22, 80, 443).  
-- Configurar NSG y aplicar reglas básicas de firewall.  
-- Ejecutar:
-```bash
-cd blue_team
-sudo bash firewall_basic.sh
-```
-
----
-
-### 2. **Escaneo y auditoría (Entrega 2)**  
-**Red Team:**  
-```bash
-cd red_team
-python3 scanner.py
-```
-> Guarda los resultados del escaneo en un archivo de salida.
-
-**Blue Team:**  
-```bash
-cd blue_team
-python3 os_audit.py
-```
-> Lista usuarios, puertos abiertos y servicios activos.
-
----
-
-### 3. **Detección y respuesta (Entrega 3)**  
-- El Blue Team ejecuta `sniffer_defense.py` para escuchar paquetes SYN sospechosos.  
-- El Red Team lanza `packet_attack.py`.  
-- Los eventos detectados se registran automáticamente en `log_events.txt`.
-
-```bash
-# Blue Team
-python3 sniffer_defense.py
-
-# Red Team
-python3 packet_attack.py
-```
-
----
-
-### 4. **Integración final (Entrega 4)**  
-- Ejecutar los scripts en secuencia:  
-  `scanner.py` o `packet_attack.py` → detección por `sniffer_defense.py` → acción sugerida.  
-- Consultar el diagrama, resultados y recomendaciones en `docs/E4.pdf`.
-
----
-
 ## 🛡️ Buenas prácticas
 - Realizar pruebas únicamente dentro de la infraestructura del curso.  
 - No utilizar IPs externas ni datos personales.  
@@ -138,7 +75,4 @@ python3 packet_attack.py
 
 ---
 
-## 📜 Licencia
-Este proyecto es para fines académicos dentro del curso CY-302 y no debe ser utilizado en entornos externos.
 
----
