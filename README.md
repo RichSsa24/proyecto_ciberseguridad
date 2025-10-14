@@ -1,7 +1,7 @@
 # 🛡️ Proyecto Final — Red Team vs Blue Team en Azure
 **Curso:** CY-302 Programación Avanzada  
 **Docente:** Andrés Vargas  
-**Fecha:** 9 de octubre de 2025
+**Fecha:**  Octubre de 2025
 
 ---
 
@@ -67,12 +67,5 @@ proyecto_ciberseguridad/
 
 ---
 
-## 📎 Recursos útiles
-- Documentación oficial de Nmap: https://nmap.org/book/man.html  
-- Scapy Docs: https://scapy.readthedocs.io/en/latest/  
-- Paramiko Docs: http://www.paramiko.org/  
-- Azure Portal: https://portal.azure.com
-
----
 
 
