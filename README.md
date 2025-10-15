@@ -11,7 +11,7 @@
 - José Ricardo Solís Arias  
 - Marijesus Herrera Nuñez  
 - Kamila Chavarria Genardi  
-- Jeremy Corrales
+- Yeremy Corrales Madrigal
 
 ---
 
