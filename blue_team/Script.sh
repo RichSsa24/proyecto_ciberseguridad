@@ -1,12 +1,4 @@
 #!/bin/bash
-# ============================================================
-# Script básico de configuración de firewall (UFW)
-# Autor: Blue Team
-# Descripción:
-#   - Deniega todo el tráfico entrante por defecto.
-#   - Permite solo SSH (22), HTTP (80) y HTTPS (443).
-#   - Permite todo el tráfico saliente.
-# ============================================================
 
 echo "[+] Iniciando configuración básica."
 
@@ -35,3 +27,4 @@ echo "Configuración final del firewall:"
 sudo ufw status verbose
 
 echo "Firewall configurado correctamente."
+
